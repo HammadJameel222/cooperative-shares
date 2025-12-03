@@ -54,6 +54,7 @@
                             </div>
                         @endforeach
                         @php
+
                             $frontPageAdCount = 6 - count($adsByPackage['Front Page & Footer Sponsor Slot']);
                         @endphp
                         @if ($frontPageAdCount)
